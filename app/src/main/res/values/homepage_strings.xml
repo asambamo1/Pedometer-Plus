@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Pedometer +</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="BMI">BMI Calculator</string>
+    <string name="compass">Compass</string>
+    <string name="loc">My Location</string>
+    <string name="hsettings">Settings</string>
+    <string-array name="nav_drawer_tabs">
+        <item>@string/BMI</item>
+        <item>@string/compass</item>
+        <item>@string/loc</item>
+        <item>@string/hsettings</item>
+    </string-array>
+
+    <!-- Font Awesome icons -->
+    <string name="bmicalc_icon">{fa-calculator}</string>
+    <string name="compass_icon">{fa-compass spin}</string>
+    <string name="mylocation_icon">{fa-location-arrow}</string>
+    <string name="settings_icon">{fa-gear spin}</string>
+    <string-array name="nav_drawer_icons">
+        <item>@string/bmicalc_icon</item>
+        <item>@string/compass_icon</item>
+        <item>@string/mylocation_icon</item>
+        <item>@string/settings_icon</item>
+    </string-array>
+</resources>

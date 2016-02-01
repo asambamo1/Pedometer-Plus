@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name1">Pedometer</string>
+    <string name="notification_subtitle">Counting Your Steps</string>
+
+    <string name="started">Pedometer Started.</string>
+    <string name="stopped">Pedometer Stopped.</string>
+
+    <string name="steps">Steps</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="miles">Miles</string>
+    <string name="steps_per_minute">Steps / Minute</string>
+    <string name="kilometers_per_hour">Kilometers / Hour</string>
+    <string name="miles_per_hour">Miles / Hour</string>
+    <string name="calories_burned">Calories Burned</string>
+    <string name="centimeters">Centimeters</string>
+    <string name="inches">Inches</string>
+    <string name="kilograms">Kilograms</string>
+    <string name="pounds">Pounds</string>
+
+
+
+    <string name="desired_pace">Desired Pace:</string>
+    <string name="desired_speed">Desired Speed:</string>
+
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="reset">Reset</string>
+    
+    <!-- Settings -->
+    <string name="settings">⚙ Settings</string>
+    <string name="activity_settings">Pedometer Settings</string>
+    <string name="steps_settings_title">Pedometer Settings</string>
+    <string name="sensitivity_setting">Calibration Settings</string>
+    <string name="sensitivity_setting_details">Calibrate the sensitivity of the step detector (chose the option which works best on your device)</string>
+    <string name="sensitivity_setting_title">Calibration - Select Desired Sensitivity Level</string>
+    <string name="extra_high">Extra High</string>
+    <string name="very_high">Very High</string>
+    <string name="high">High</string>
+    <string name="higher">Higher</string>
+    <string name="medium">Medium</string>
+    <string name="lower">Lower</string>
+    <string name="low">Low</string>
+    <string name="very_low">Very low</string>
+    <string name="extra_low">Extra low</string>
+    <string name="operation_level_setting">Background Operational Settings</string>
+    <string name="operation_level_setting_details">Choose any level which works best on your device</string>
+    <string name="operation_level_setting_title">Background Operational Level</string>
+    <string name="run_in_background">Normal (Try running only in the background)</string>
+    <string name="keep_screen_on">Screen On (Keep screen dim)</string>
+    <string name="wake_up">Aggressive (Wake up when I turn the screen off)</string>
+    <string name="units_setting">System of Measurement</string>
+    <string name="reboot_steps">View Reboot Steps</string>
+    <string name="reboot_steps2">View Steps Taken Since Last Reboot</string>
+    <string name="units_setting_details">Chose whether you want Imperial or Metric units</string>
+    <string name="units_setting_title">Choose System of Measurement</string>
+    <string name="units_metric">Metric (Kilometers)</string>
+    <string name="units_imperial">Imperial (Miles)</string>
+    <string name="step_length_setting">My Step Length</string>
+    <string name="step_length_setting_details">Calculate calories burned, distance gone, and your speed</string>
+    <string name="step_length_setting_title">What is your step length?</string>
+    <string name="body_weight_setting">My Body Weight</string>
+    <string name="body_weight_setting_details">Used to calculate the number of calories you have burned</string>
+    <string name="body_weight_setting_title">How much do you weigh?</string>
+    <string name="exercise_type_setting">Running/Walking</string>
+    <string name="exercise_type_setting_details">Choose whether you are running or walking to calculate the number of calories you have burned</string>
+    <string name="exercise_type_setting_title">Choose whether you are Running or Walking</string>
+    <string name="exercise_type_running">Running</string>
+    <string name="exercise_type_walking">Walking</string>
+    <string name="maintain_setting">Pace/Speed Options</string>
+    <string name="maintain_setting_details">Choose whether you want to maintain a desired pace or speed</string>
+    <string name="maintain_setting_title">Choose what to Maintain</string>
+    <string name="maintain_nothing">Nothing</string>
+    <string name="maintain_pace">Pace</string>
+    <string name="maintain_speed">Speed</string>
+    <string name="voice_settings_title">Pedometer Voice Settings</string>
+    <string name="voice_setting">Speak</string>
+    <string name="voice_setting_details">Enable/Disable Voice Notifications</string>
+    <string name="speaking_interval_setting">Interval</string>
+    <string name="speaking_interval_setting_details">Interval for Voice Notification</string>
+    <string name="interval_15_seconds">15 seconds</string>
+    <string name="interval_30_seconds">30 seconds</string>
+    <string name="interval_1_minute">1 minute</string>
+    <string name="interval_2_minutes">2 minutes</string>
+    <string name="interval_5_minutes">5 minutes</string>
+    <string name="interval_10_minutes">10 minutes</string>
+    <string name="tell_what">Speak Options</string>
+    <string name="tell_what1">What should be read out?</string>
+    <string name="tell_steps_setting">Steps</string>
+    <string name="tell_steps_setting_details">Count of Steps</string>
+    <string name="tell_pace_setting">Pace</string>
+    <string name="tell_pace_setting_details">Steps / Minute</string>
+    <string name="tell_distance_setting">Distance</string>
+    <string name="tell_distance_setting_details">Kilometers or Miles</string>
+    <string name="tell_speed_setting">Speed</string>
+    <string name="tell_speed_setting_details">Km/h or MPH</string>
+    <string name="tell_calories_setting">Calories Burned</string>
+    <string name="tell_calories_setting_details">Number of Calories Burned</string>
+    <string name="tell_fasterslower_setting">Alert to go Faster/Slower</string>
+    <string name="tell_fasterslower_setting_details">Helps maintain your desired pace or speed by prompting you to go faster or slower. Interval does not apply!</string>
+    <string name="incorrect_step_length">Step length format is incorrect! Please go to Settings to change it!</string>
+
+    <string name="quit">Go to Main Menu</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

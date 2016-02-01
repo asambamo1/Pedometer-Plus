@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <PreferenceCategory
+            android:title="@string/tell_what">
+
+            <CheckBoxPreference
+                android:key="tell_steps"
+                android:title="@string/tell_steps_setting"
+                android:summary="@string/tell_steps_setting_details"
+                android:defaultValue="false" />
+            <CheckBoxPreference
+                android:key="tell_pace"
+                android:title="@string/tell_pace_setting"
+                android:summary="@string/tell_pace_setting_details"
+                android:defaultValue="false" />
+            <CheckBoxPreference
+                android:key="tell_distance"
+                android:title="@string/tell_distance_setting"
+                android:summary="@string/tell_distance_setting_details"
+                android:defaultValue="false" />
+            <CheckBoxPreference
+                android:key="tell_speed"
+                android:title="@string/tell_speed_setting"
+                android:summary="@string/tell_speed_setting_details"
+                android:defaultValue="false" />
+            <CheckBoxPreference
+                android:key="tell_calories"
+                android:title="@string/tell_calories_setting"
+                android:summary="@string/tell_calories_setting_details"
+                android:defaultValue="false" />
+            <CheckBoxPreference
+                android:key="tell_fasterslower"
+                android:title="@string/tell_fasterslower_setting"
+                android:summary="@string/tell_fasterslower_setting_details"
+                android:defaultValue="false" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+

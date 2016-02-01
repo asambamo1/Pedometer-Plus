@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:displayOptions">showHome|homeAsUp|showTitle</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#607D8B</item>
+        <item name="colorPrimaryDark">#607D8B</item>
+        <item name="colorAccent">#607D8B</item>
+    </style>
+
+    <style name="App" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/lite</item>
+    </style>
+    <style name="App1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/lite</item>
+    </style>
+    <style name="App2" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+    <style name="App3" parent="Theme.AppCompat">
+
+    </style>
+</resources>

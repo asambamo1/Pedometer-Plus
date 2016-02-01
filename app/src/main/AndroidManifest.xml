@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pedometer.asamapps"
+    android:installLocation="auto"
+    android:versionCode="5"
+    android:versionName="1.4.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--android:name=".Steps.PedometerActivity"-->
+
+    <application
+        android:icon="@drawable/walking"
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:name=".UtilsAndOthers.MyApplication"
+        android:supportsRtl="true"
+        android:theme="@style/App1">
+        <activity
+            android:name=".ActivitySteps.PedomenterMainActivity"
+            android:theme="@style/App2"
+            android:label="Pedometer +" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.Settings"
+            android:label="@string/activity_settings"
+            android:theme="@style/App" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".ActivitySteps.StepService" />
+        <service android:name=".Services.Time" />
+
+        <activity
+            android:name=".Activities.BMI_Calculator"
+            android:theme="@style/App3" >
+        </activity>
+        <activity
+            android:name=".Activities.MyLocation"
+            android:theme="@style/App3">
+        </activity>
+        <activity
+            android:name=".compass.Compass"
+            android:theme="@style/App3">
+        </activity>
+        <activity
+            android:name=".Activities.SettingsActivity"
+            android:theme="@style/App1">
+
+        </activity>
+    </application>
+
+</manifest>

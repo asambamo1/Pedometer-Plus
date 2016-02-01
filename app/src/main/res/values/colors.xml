@@ -1,0 +1,20 @@
+<resources>
+    <color name="display_background">#003366</color>
+    <color name="display">#345</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#4C4CFF</color>
+    <color name="lite">#37474F</color>
+
+    <color name="dark_grey">#696969</color>
+    <color name="linkedin_blue">#007bb5</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#d3d3d3</color>
+
+    <color name="app_blue">#2196F3</color>
+    <color name="light_blue">#90CAF9</color>
+    <color name="dark_gray">#696969</color>
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+    <color name="yellow">#FFEB3B</color>
+</resources>
